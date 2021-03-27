@@ -25,35 +25,33 @@ def division(valor1, valor2) :
 
 while True:
     menu()
-    o = int(input("Ingrese su opcion: ")) 
-    if o==5 :
+    opcion = int(input("Ingrese su opcion: ")) 
+    if opcion==5 :
         print("hasta luego...!!!")
         break
-    c = int(input("cuantos numeros va a calcular? ") )    
-    if o == 1:
-        for v in range(c):
-            if v==0:
+    contador = int(input("cuantos numeros va a calcular? ") )    
+    if opcion == 1:
+        for numero in range(contador):
+            if numero==0:
                 respuesta=suma(0,int(input("numero : ")))
             else:
                 respuesta=suma(respuesta,int(input("numero : ")))
-    if o ==2:
-        for v in range(c):
-            if v==0:
+    if opcion ==2:
+        for numero in range(contador):
+            if numero==0:
                 respuesta=resta(int(input("numero : ")),0) 
             else:
                 respuesta=resta(respuesta,int(input("numero : ")))
-    if o ==3:
-        for v in range(c):
-            if v==0:
+    if opcion ==3:
+        for numero in range(contador):
+            if numero==0:
                 respuesta=multiplicacion(1,int(input("numero : ")))
             else:
                 respuesta=multiplicacion(respuesta,int(input("numero : ")))
-    if o ==4:
-        for v in range(c):
-            if v==0:
+    if opcion ==4:
+        for numero in range(contador):
+            if numero==0:
                 respuesta=division(int(input("numero : ")),1)
             else:
                 respuesta=division(respuesta,int(input("numero : ")))
     print("las resultado es", respuesta)
-    if  o !=1 and o !=2 and o !=3 and o !=4 and o !=5:
-        print ("opcion invalida") 

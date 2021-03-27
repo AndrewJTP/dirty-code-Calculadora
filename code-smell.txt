@@ -1,21 +1,25 @@
 **code-smell 1**
 lineas 4-58
 identificador excesivamente corto
+renombrar las variables
 27-56
 
 **code-smell 2**
 lineas 4-58
 Metodo grande
+dividir las funciones del metodo
 13-23
 
 **code-smell 3**
 15,25,35,45
 codigo duplicado
+borrar y modificar el codigo duplicado
 28-56
 
 **code-smell 4**
 4,16,26,36,46
 generalidad especulativa
+borrar las variables no necesarias
 
 
 
