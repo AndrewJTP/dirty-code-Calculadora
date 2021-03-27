@@ -1,4 +1,5 @@
 #Andrew Torrez P
+#refactorizando
 while True:
     o = 0
     print("""
